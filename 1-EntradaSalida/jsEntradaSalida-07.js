@@ -5,28 +5,28 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	let num1;
-	let num2;
+	let numero1;
+	let numero2;
 	let resultado;
 	
-	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
-	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	numero1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+ 	numero2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-	resultado = num1 + num2;
+	resultado = numero1 + numero2;
 
 	alert("La suma es de " + resultado);
 }
 
 function restar()
 {
-	let num1;
-	let num2;
+	let numero1;
+	let numero2;
 	let resultado;
 	
-	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
-	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	numero1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+ 	numero2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-	resultado = num1 - num2;
+	resultado = numero1 - numero2;
 
 	alert("La resta es de " + resultado);
 	
@@ -34,28 +34,28 @@ function restar()
 
 function multiplicar()
 { 
-	let num1;
-	let num2;
+	let numero1;
+	let numero2;
 	let resultado;
 	
-	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
-	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	numero1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+ 	numero2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-	resultado = num1 * num2;
+	resultado = numero1 * numero2;
 
 	alert("La multiplicacion es de " + resultado);
 }
 
 function dividir()
 {
-	let num1;
-	let num2;
+	let numero1;
+	let numero2;
 	let resultado;
 	
-	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
-	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	numero1 = parseInt(document.getElementById("txtIdNumeroUno").value);
+ 	numero2 = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-	resultado = num1 / num2;
+	resultado = numero1 / numero2;
 
 	alert("La division es de " + resultado);
 }
